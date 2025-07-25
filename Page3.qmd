@@ -1,0 +1,5 @@
+---
+title: "Just a random task"
+---
+
+And [here](L3-Quarto.qmd) you can find an external page linking to a quarto document, which is of course completely unrelated to the marvelous Sardinia ;)

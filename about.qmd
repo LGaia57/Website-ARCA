@@ -1,9 +1,25 @@
 ---
-title: "About"
+title: "What to pack"
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+::: {.panel-tabset}
+## Sailing essentials
+  + k-way
+  + waterproof pants
+  + boat shoes
+  + head flashlight
+  + boat gloves
+  + sun hat
+  + sunglasses
+  
+## Summer essentials
+  + Swim-suit
+  + Goggles
+  + T-shirts
+  + Short pants
+  + Summer pj
+  + Flip-flops
+  + Beach towel
+  
+:::

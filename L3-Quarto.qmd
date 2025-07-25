@@ -1,0 +1,224 @@
+---
+title: "L3-Quarto"
+author: "GL"
+date: today
+format: 
+  html:
+    self-contained: true
+    toc: true
+    toc-location: left
+    toc-title: My contents
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
+    theme: 
+      light: flatly
+      dark: darkly
+    fontsize: 20px
+    code-tools: 
+     source: true
+     toggle: false
+     caption: This is my code
+lang: it
+citation-location: margin
+execute: 
+  echo: true
+  message: false
+  warning: false
+  error: true
+code-fold: true
+code-summary: See this specific code
+code-annotations: hover
+---
+
+
+## Let's talk about rocks
+
+```{r}
+#| echo: fenced
+#| eval: false
+print(rock)
+```
+
+
+```{r}
+#| code-summary: Look at me!
+summary(rock)
+```
+
+## And now about anxiety and other stuff
+```{r}
+#| echo: false
+data <- read.csv("data/dataset.csv")
+str(data)
+```
+
+```{r}
+#| code-summary: Look at me!
+summary(data)
+```
+
+@fig-bb illustrates a baby wearing a nirs cap with frontal probes.
+```{r}
+#| out-width: 20%
+#| fig-align: left
+#| fig-cap: A baby with a nirs cap
+#| fig-cap-location: bottom
+#| label: fig-bb
+#| code-summary: look how I've imported this nice pic! ;)
+knitr::include_graphics("img/bb.png")
+```
+ 
+```{r}
+#| include: false
+library(ggplot2)
+```
+
+
+@fig-plot1 illustrates a plot
+
+```{r}
+#| out-width: 50%                                
+#| fig-align: center                             
+#| fig-cap: A graph from `mtcars`
+#| fig-cap-location: margin
+#| label: fig-plot1
+#| code-summary: look how we directly plotted in Quarto (of course I copied Ottavia's code)
+ggplot(mtcars, aes(hp, mpg, color = factor(am))) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+
+```{r}
+#| include: false
+library(kableExtra)
+```
+
+@tbl-table1 show the summary of the ChickWeight dataset
+
+```{r}
+#| echo: false
+#| label: tbl-table1
+#| fig-cap-location: margin
+#| tbl-cap: "ChickWeight data summary"
+kable(summary(ChickWeight)) %>%
+  scroll_box(height = "200px", width = "100%")
+```
+```{r}
+#| lst-label: lst-tablecode
+#| lst-cap: Code use to generate the previous table
+#| eval: false
+
+kable(summary(ChickWeight)) %>%
+  scroll_box(height = "200px", width = "100%")
+```
+
+::: {.callout-tip collapse="true"}
+
+If you write  *"#| eval: false"*  in the previous code ref, quarto won't return a table twice
+:::
+
+```{r}
+#| echo: false
+data <- read.csv("data/dataset.csv")
+str(data)
+```
+
+```{r}
+#| echo: false
+#| label: tbl-table2
+#| fig-cap-location: bottom
+#| tbl-cap: "Data Summary"
+
+kable(summary(data))
+```
+
+```{r}
+ggplot(data, 
+       aes(anxiety, flexibility, color = factor(mindfulness))) +
+  geom_point() +
+  theme(legend.position = 'bottom')
+```
+
+```{r}
+#| eval: true
+#| fig-column: margin
+
+ggplot(data,
+       aes(anxiety, flexibility, color = factor(mindfulness))) + 
+  geom_point() + 
+  theme(legend.position = 'bottom') 
+kable(summary(data)) 
+```
+
+
+```{r}
+#| eval: true
+
+ggplot(data, # <1>
+       aes(anxiety, flexibility, color = factor(mindfulness))) + # <2>
+  geom_point() + # <3>
+  theme(legend.position = 'bottom') # <4>
+
+```
+1. specify the dataset
+2. specify variables
+3. select the type of point
+4. select the legend position
+
+
+
+@fig-plotsModels illustrates different things. @fig-plotsModels-1 and @fig-plotsModels-3 illustrates *Mindfulness* aggregation, @fig-plotsModels-2 and @fig-plotsModels-4 illustrates *Activity* aggregation 
+```{r}
+#| label: fig-plotsModels
+#| layout-nrow: 2
+#| layout-ncol: 2
+#| fig-align: center
+#| out-width: 100%
+#| fig-cap: "One dataset, different graphical representations" 
+#| fig-subcap:
+#|   - "Mindfulness a"
+#|   - "Activity a"
+#|   - "Mindfulness b"
+#|   - "Activity b" 
+
+ggplot(data, 
+       aes(anxiety, flexibility, color = factor(mindfulness))) +
+  geom_point()
+
+ggplot(data, 
+       aes(anxiety, flexibility, color = factor(activity))) +
+  geom_point()
+
+ggplot(data, 
+       aes(anxiety, flexibility, shape = factor(mindfulness))) +
+  geom_point()
+
+ggplot(data, 
+       aes(anxiety, flexibility, shape = factor(activity))) +
+  geom_point()
+
+```
+
+
+```{r}
+#| label: tbl-tables
+#| tbl-cap: "Datasets"
+#| tbl-subcap: 
+#|   - "Data"
+#|   - "DataSummary"
+#| layout-ncol: 2
+#| 
+
+kable(head(data))
+
+
+kable(summary(data))
+```
+
+
+The mean of the anxiety variable is `r mean(data$anxiety)`
+

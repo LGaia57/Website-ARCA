@@ -1,12 +1,13 @@
 ---
 website:  
-  title: "Arca Summer School Website"
+  title: "Sardinia Sailing Holidays"
 ---
 
-This is a Quarto website.
+Come with me to this marvellous adventure in Sardinia!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](img/boat1.png)
 
-```{r}
-1 + 1
-```
+
+## What to expect
+
+## Excursions 
