@@ -1,5 +1,6 @@
 ---
-title: "Website"
+website:  
+  title: "Arca Summer School Website"
 ---
 
 This is a Quarto website.
