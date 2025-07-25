@@ -2,8 +2,85 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Arca Summer School Website",
+    "title": "Sardinia Sailing Holidays",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Come with me to this marvelous adventure in Sardinia!"
+  },
+  {
+    "objectID": "index.html#what-to-pack",
+    "href": "index.html#what-to-pack",
+    "title": "Sardinia Sailing Holidays",
+    "section": "What to pack",
+    "text": "What to pack\n\nSailing essentialsSummer essentials\n\n\n\nk-way\nwaterproof pants\nboat shoes\nhead flashlight\nboat gloves\nsun hat\nsunglasses\n\n\n\n\nSwim-suit\nGoggles\nT-shirts\nShort pants\nSummer pj\nFlip-flops\nBeach towel"
+  },
+  {
+    "objectID": "index.html#what-to-expect",
+    "href": "index.html#what-to-expect",
+    "title": "Sardinia Sailing Holidays",
+    "section": "What to expect",
+    "text": "What to expect"
+  },
+  {
+    "objectID": "index.html#itinerary",
+    "href": "index.html#itinerary",
+    "title": "Sardinia Sailing Holidays",
+    "section": "Itinerary",
+    "text": "Itinerary"
+  },
+  {
+    "objectID": "index.html#excursions",
+    "href": "index.html#excursions",
+    "title": "Sardinia Sailing Holidays",
+    "section": "Excursions",
+    "text": "Excursions"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "What to pack",
+    "section": "",
+    "text": "Sailing essentialsSummer essentials\n\n\n\nk-way\nwaterproof pants\nboat shoes\nhead flashlight\nboat gloves\nsun hat\nsunglasses\n\n\n\n\nSwim-suit\nGoggles\nT-shirts\nShort pants\nSummer pj\nFlip-flops\nBeach towel"
+  },
+  {
+    "objectID": "about.html#what-to-pack",
+    "href": "about.html#what-to-pack",
+    "title": "What to pack",
+    "section": "",
+    "text": "Sailing essentialsSummer essentials\n\n\n\nk-way\nwaterproof pants\nboat shoes\nhead flashlight\nboat gloves\nsun hat\nsunglasses\n\n\n\n\nSwim-suit\nGoggles\nT-shirts\nShort pants\nSummer pj\nFlip-flops\nBeach towel"
+  },
+  {
+    "objectID": "L3-Quarto.html",
+    "href": "L3-Quarto.html",
+    "title": "L3-Quarto",
+    "section": "",
+    "text": "See this specific code\n```{r}\n#| eval: false\nprint(rock)\n```\n\n\n\n\nLook at me!\nsummary(rock)\n\n\n      area            peri            shape              perm        \n Min.   : 1016   Min.   : 308.6   Min.   :0.09033   Min.   :   6.30  \n 1st Qu.: 5305   1st Qu.:1414.9   1st Qu.:0.16226   1st Qu.:  76.45  \n Median : 7487   Median :2536.2   Median :0.19886   Median : 130.50  \n Mean   : 7188   Mean   :2682.2   Mean   :0.21811   Mean   : 415.45  \n 3rd Qu.: 8870   3rd Qu.:3989.5   3rd Qu.:0.26267   3rd Qu.: 777.50  \n Max.   :12212   Max.   :4864.2   Max.   :0.46413   Max.   :1300.00"
+  },
+  {
+    "objectID": "L3-Quarto.html#lets-talk-about-rocks",
+    "href": "L3-Quarto.html#lets-talk-about-rocks",
+    "title": "L3-Quarto",
+    "section": "",
+    "text": "See this specific code\n```{r}\n#| eval: false\nprint(rock)\n```\n\n\n\n\nLook at me!\nsummary(rock)\n\n\n      area            peri            shape              perm        \n Min.   : 1016   Min.   : 308.6   Min.   :0.09033   Min.   :   6.30  \n 1st Qu.: 5305   1st Qu.:1414.9   1st Qu.:0.16226   1st Qu.:  76.45  \n Median : 7487   Median :2536.2   Median :0.19886   Median : 130.50  \n Mean   : 7188   Mean   :2682.2   Mean   :0.21811   Mean   : 415.45  \n 3rd Qu.: 8870   3rd Qu.:3989.5   3rd Qu.:0.26267   3rd Qu.: 777.50  \n Max.   :12212   Max.   :4864.2   Max.   :0.46413   Max.   :1300.00"
+  },
+  {
+    "objectID": "L3-Quarto.html#and-now-about-anxiety-and-other-stuff",
+    "href": "L3-Quarto.html#and-now-about-anxiety-and-other-stuff",
+    "title": "L3-Quarto",
+    "section": "And now about anxiety and other stuff",
+    "text": "And now about anxiety and other stuff\n\n\n'data.frame':   300 obs. of  4 variables:\n $ anxiety    : num  50.2 31.5 34 37.1 48.3 ...\n $ flexibility: num  44.4 47.7 65.6 50.7 51.3 ...\n $ mindfulness: chr  \"no\" \"yes\" \"no\" \"no\" ...\n $ activity   : chr  \"pilates\" \"altro\" \"pilates\" \"altro\" ...\n\n\n\n\nLook at me!\nsummary(data)\n\n\n    anxiety        flexibility    mindfulness          activity        \n Min.   : 1.483   Min.   :26.91   Length:300         Length:300        \n 1st Qu.:25.977   1st Qu.:44.24   Class :character   Class :character  \n Median :33.922   Median :49.56   Mode  :character   Mode  :character  \n Mean   :33.418   Mean   :50.34                                        \n 3rd Qu.:41.974   3rd Qu.:56.32                                        \n Max.   :64.775   Max.   :82.41                                        \n\n\nFigura 1 illustrates a baby wearing a nirs cap with frontal probes.\n\n\nlook how I’ve imported this nice pic! ;)\nknitr::include_graphics(\"img/bb.png\")\n\n\n\n\n\n\n\n\nFigura 1: A baby with a nirs cap\n\n\n\n\n\nFigura 2 illustrates a plot\n\n\nlook how we directly plotted in Quarto (of course I copied Ottavia’s code)\nggplot(mtcars, aes(hp, mpg, color = factor(am))) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\n\n\n\n\n\n\n\n\nFigura 2: A graph from mtcars\n\n\n\n\n\nTabella 1 show the summary of the ChickWeight dataset\n\n\n\n\n\n\n\n\n\n\nweight\nTime\nChick\nDiet\n\n\n\n\n\nMin. : 35.0\nMin. : 0.00\n13 : 12\n1:220\n\n\n\n1st Qu.: 63.0\n1st Qu.: 4.00\n9 : 12\n2:120\n\n\n\nMedian :103.0\nMedian :10.00\n20 : 12\n3:120\n\n\n\nMean :121.8\nMean :10.72\n10 : 12\n4:118\n\n\n\n3rd Qu.:163.8\n3rd Qu.:16.00\n17 : 12\nNA\n\n\n\nMax. :373.0\nMax. :21.00\n19 : 12\nNA\n\n\n\nNA\nNA\n(Other):506\nNA\n\n\n\n\n\n\n\n\nTabella 1: ChickWeight data summary\n\n\n\n\n\n\n\n\nLista 1: Code use to generate the previous table\n\n\nkable(summary(ChickWeight)) %&gt;%\n  scroll_box(height = \"200px\", width = \"100%\")\n\n\n\n\n\n\n\n\n\n\nConsiglio\n\n\n\n\n\nIf you write “#| eval: false” in the previous code ref, quarto won’t return a table twice\n\n\n\n\n\n'data.frame':   300 obs. of  4 variables:\n $ anxiety    : num  50.2 31.5 34 37.1 48.3 ...\n $ flexibility: num  44.4 47.7 65.6 50.7 51.3 ...\n $ mindfulness: chr  \"no\" \"yes\" \"no\" \"no\" ...\n $ activity   : chr  \"pilates\" \"altro\" \"pilates\" \"altro\" ...\n\n\n\n\n\n\n\n\n\n\n\nanxiety\nflexibility\nmindfulness\nactivity\n\n\n\n\n\nMin. : 1.483\nMin. :26.91\nLength:300\nLength:300\n\n\n\n1st Qu.:25.977\n1st Qu.:44.24\nClass :character\nClass :character\n\n\n\nMedian :33.922\nMedian :49.56\nMode :character\nMode :character\n\n\n\nMean :33.418\nMean :50.34\nNA\nNA\n\n\n\n3rd Qu.:41.974\n3rd Qu.:56.32\nNA\nNA\n\n\n\nMax. :64.775\nMax. :82.41\nNA\nNA\n\n\n\n\n\n\nTabella 2: Data Summary\n\n\n\n\n\n\nSee this specific code\nggplot(data, \n       aes(anxiety, flexibility, color = factor(mindfulness))) +\n  geom_point() +\n  theme(legend.position = 'bottom')\n\n\n\n\n\n\n\n\n\n\n\nSee this specific code\nggplot(data,\n       aes(anxiety, flexibility, color = factor(mindfulness))) + \n  geom_point() + \n  theme(legend.position = 'bottom') \n\n\n\n\n\n\n\n\n\nSee this specific code\nkable(summary(data)) \n\n\n\n\n\n\nanxiety\nflexibility\nmindfulness\nactivity\n\n\n\n\n\nMin. : 1.483\nMin. :26.91\nLength:300\nLength:300\n\n\n\n1st Qu.:25.977\n1st Qu.:44.24\nClass :character\nClass :character\n\n\n\nMedian :33.922\nMedian :49.56\nMode :character\nMode :character\n\n\n\nMean :33.418\nMean :50.34\nNA\nNA\n\n\n\n3rd Qu.:41.974\n3rd Qu.:56.32\nNA\nNA\n\n\n\nMax. :64.775\nMax. :82.41\nNA\nNA\n\n\n\n\n\n\n\nSee this specific code\n1ggplot(data,\n2       aes(anxiety, flexibility, color = factor(mindfulness))) +\n3  geom_point() +\n4  theme(legend.position = 'bottom')\n\n\n\n1\n\nspecify the dataset\n\n2\n\nspecify variables\n\n3\n\nselect the type of point\n\n4\n\nselect the legend position\n\n\n\n\n\n\n\n\n\n\n\nFigura 3 illustrates different things. Figura 3 (a) and Figura 3 (c) illustrates Mindfulness aggregation, Figura 3 (b) and Figura 3 (d) illustrates Activity aggregation\n\nSee this specific code\nggplot(data, \n       aes(anxiety, flexibility, color = factor(mindfulness))) +\n  geom_point()\n\nggplot(data, \n       aes(anxiety, flexibility, color = factor(activity))) +\n  geom_point()\n\nggplot(data, \n       aes(anxiety, flexibility, shape = factor(mindfulness))) +\n  geom_point()\n\nggplot(data, \n       aes(anxiety, flexibility, shape = factor(activity))) +\n  geom_point()\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Mindfulness a\n\n\n\n\n\n\n\n\n\n\n\n(b) Activity a\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Mindfulness b\n\n\n\n\n\n\n\n\n\n\n\n(d) Activity b\n\n\n\n\n\n\n\nFigura 3: One dataset, different graphical representations\n\n\n\n\nSee this specific code\nkable(head(data))\nkable(summary(data))\n\n\n\n\nTabella 3: Datasets\n\n\n\n\n\n\n\n(a) Data\n\n\n\n\n\nanxiety\nflexibility\nmindfulness\nactivity\n\n\n\n\n50.17244\n44.39524\nno\npilates\n\n\n31.47451\n47.69823\nyes\naltro\n\n\n34.03981\n65.58708\nno\npilates\n\n\n37.06712\n50.70508\nno\naltro\n\n\n48.30549\n51.29288\nno\naltro\n\n\n16.94087\n67.15065\nyes\naltro\n\n\n\n\n\n\n\n\n\n\n\n(b) DataSummary\n\n\n\n\n\n\nanxiety\nflexibility\nmindfulness\nactivity\n\n\n\n\n\nMin. : 1.483\nMin. :26.91\nLength:300\nLength:300\n\n\n\n1st Qu.:25.977\n1st Qu.:44.24\nClass :character\nClass :character\n\n\n\nMedian :33.922\nMedian :49.56\nMode :character\nMode :character\n\n\n\nMean :33.418\nMean :50.34\nNA\nNA\n\n\n\n3rd Qu.:41.974\n3rd Qu.:56.32\nNA\nNA\n\n\n\nMax. :64.775\nMax. :82.41\nNA\nNA\n\n\n\n\n\n\n\n\n\n\n\nThe mean of the anxiety variable is 33.4179293"
+  },
+  {
+    "objectID": "itinerary.html",
+    "href": "itinerary.html",
+    "title": "Itinerary",
+    "section": "",
+    "text": "Here it is shown the itinerary we will be doing!!"
+  },
+  {
+    "objectID": "Page3.html",
+    "href": "Page3.html",
+    "title": "Just a random task",
+    "section": "",
+    "text": "And here you can find an external page linking to a quarto document, which is of course completely unrelated to the marvelous Sardinia ;)"
   }
 ]
