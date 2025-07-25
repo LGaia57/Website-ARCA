@@ -3,7 +3,7 @@ website:
   title: "Sardinia Sailing Holidays"
 ---
 
-Come with me to this marvellous adventure in Sardinia!
+Come with me to this marvelous adventure in Sardinia!
 
 ![](img/boat1.png)
 
