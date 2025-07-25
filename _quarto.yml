@@ -3,13 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Arca Summer School Website"
+  title: "Sardinia Sailing Holidays"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: Location
+        text: What to pack
+      - href: itinerary.qmd
+        text: Itinerary
+      - href: Page3.qmd
+        text: Just a random task
 
 format:
   html:
